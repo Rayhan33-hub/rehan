@@ -1,0 +1,329 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Biodata | Muhammad Rayhan Rizky Pratama</title>
+  <meta
+    name="description"
+    content="Biodata diri Muhammad Rayhan Rizky Pratama"
+  >
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Sora:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Tombol Tema -->
+  <button id="themeToggle" class="theme-toggle" type="button">
+    ☀️ / 🌙
+  </button>
+
+  <main class="container">
+
+    <!-- ================= PROFILE ================= -->
+    <header class="profile">
+
+      <div class="profile-image-wrapper">
+        <div class="ring"></div>
+
+        <img
+          src="image.jpg"
+          alt="Foto profil Muhammad Rayhan Rizky Pratama"
+          class="profile-image"
+        >
+      </div>
+
+      <h1>Muhammad Rayhan Rizky Pratama</h1>
+
+      <p class="school">
+        SMA GUNUNG MADU
+      </p>
+
+    </header>
+
+
+    <!-- ================= TENTANG SAYA ================= -->
+    <section class="card">
+
+      <h2>Tentang Saya</h2>
+
+      <p>
+        Saya adalah salah satu siswa kelas XII yang mengambil mata pelajaran
+        CIT Tingkat Lanjut. Saya pernah ikut organisasi di sekolah, yaitu SRC
+        atau yang biasa dikenal dengan OSIS. Saya juga pernah mengikuti Lomba
+        Line Follower yang diadakan di event tahunan SPASF 2026.
+      </p>
+
+    </section>
+
+
+    <!-- ================= DATA DIRI ================= -->
+    <section class="card">
+
+      <h2>Data Diri</h2>
+
+      <div class="data-list">
+
+        <div class="data-item">
+          <span>Nama</span>
+          <strong>Muhammad Rayhan Rizky Pratama</strong>
+        </div>
+
+        <div class="data-item">
+          <span>Tempat, Tanggal Lahir</span>
+          <strong>Poncowati, 13 Juli 2009</strong>
+        </div>
+
+        <div class="data-item">
+          <span>Alamat</span>
+          <strong>Jl. Melati, Perumahan 2</strong>
+        </div>
+
+        <div class="data-item">
+          <span>Email</span>
+          <strong>rayhanrizkypratama276@gmail.com</strong>
+        </div>
+
+        <div class="data-item">
+          <span>No. HP</span>
+          <strong>0822-6901-8007</strong>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= PRESTASI ================= -->
+    <section class="card">
+
+      <h2>Prestasi</h2>
+
+      <div class="achievement">
+
+        <div class="achievement-item">
+          <span class="number">01</span>
+          <p>
+            Menjadi pasukan pengibar bendera di PT Gunung Madu 2026.
+          </p>
+        </div>
+
+        <div class="achievement-item">
+          <span class="number">02</span>
+          <p>
+            Mencapai rank Grand Master di game Free Fire.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= HOBI ================= -->
+    <section class="card">
+
+      <h2>Hobi</h2>
+
+      <div class="hobby-grid">
+
+        <button
+          class="hobby"
+          onclick="openPhoto('IMG_20260728_164709_838.jpg', 'Mancing')"
+        >
+          <span>🎣</span>
+          <strong>Mancing</strong>
+        </button>
+
+        <button
+          class="hobby"
+          onclick="openPhoto('IMG_20260426_064535_058.jpg', 'Berlari')"
+        >
+          <span>🏃</span>
+          <strong>Berlari</strong>
+        </button>
+
+        <button
+          class="hobby"
+          onclick="openPhoto('IMG_20260616_231348_471.jpg', 'Bermain Game')"
+        >
+          <span>🎮</span>
+          <strong>Bermain Game</strong>
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= SOSIAL MEDIA ================= -->
+    <section class="card">
+
+      <h2>Kontak & Sosial Media</h2>
+
+      <div class="social-grid">
+
+        <!-- Instagram -->
+        <a
+          href="https://www.instagram.com/xxraayynnn?stkn=M3VhMXFIZBkMDJo"
+          target="_blank"
+          class="social instagram"
+        >
+          <span>Instagram</span>
+        </a>
+
+        <!-- WhatsApp -->
+        <a
+          href="https://wa.me/6282269018007"
+          target="_blank"
+          class="social whatsapp"
+        >
+          <span>WhatsApp</span>
+        </a>
+
+        <!-- GitHub -->
+        <a
+          href="https://github.com/Rayhan33"
+          target="_blank"
+          class="social github"
+        >
+          <span>GitHub</span>
+        </a>
+
+        <!-- Email -->
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=rayhanrizkypratama276@gmail.com"
+          target="_blank"
+          class="social email"
+        >
+          <span>Email</span>
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+      <p>
+        © 2026 Muhammad Rayhan Rizky Pratama
+      </p>
+
+      <p>
+        SMA GUNUNG MADU
+      </p>
+    </footer>
+
+  </main>
+
+
+  <!-- ================= MODAL FOTO ================= -->
+  <dialog id="photoModal">
+
+    <div class="modal-content">
+
+      <button
+        class="close-modal"
+        onclick="closePhoto()"
+        type="button"
+      >
+        ✕
+      </button>
+
+      <img id="modalImage" src="" alt="Foto hobi">
+
+      <h3 id="modalTitle"></h3>
+
+    </div>
+
+  </dialog>
+
+
+  <!-- ================= JAVASCRIPT ================= -->
+  <script>
+
+    // ================= TEMA =================
+
+    const themeToggle = document.getElementById("themeToggle");
+
+    themeToggle.addEventListener("click", () => {
+
+      document.body.classList.toggle("light");
+
+      localStorage.setItem(
+        "tema",
+        document.body.classList.contains("light")
+          ? "light"
+          : "dark"
+      );
+
+    });
+
+
+    // Memuat tema sebelumnya
+    if (localStorage.getItem("tema") === "light") {
+      document.body.classList.add("light");
+    }
+
+
+    // ================= MODAL FOTO =================
+
+    const photoModal = document.getElementById("photoModal");
+    const modalImage = document.getElementById("modalImage");
+    const modalTitle = document.getElementById("modalTitle");
+
+
+    function openPhoto(image, title) {
+
+      modalImage.src = image;
+      modalTitle.textContent = title;
+
+      photoModal.showModal();
+
+    }
+
+
+    function closePhoto() {
+
+      photoModal.close();
+
+    }
+
+
+    // Tutup modal jika klik area luar
+    photoModal.addEventListener("click", (event) => {
+
+      const rect = photoModal.getBoundingClientRect();
+
+      if (
+        event.clientX < rect.left ||
+        event.clientX > rect.right ||
+        event.clientY < rect.top ||
+        event.clientY > rect.bottom
+      ) {
+
+        photoModal.close();
+
+      }
+
+    });
+
+  </script>
+
+</body>
+</html>
+```
